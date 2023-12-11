@@ -1,9 +1,12 @@
 import datetime
+laiks=datetime.datetime.now()
+stunda=datetime.datetime.hour
 
-if time()>= 12:
-    print("Labdien!")
+if 12<= stunda :
+    sveicienu="Labdien!"
 elif time()<= 12:
-    print("Labrīt!")
+    sveicienu="Labrīt!"
 else:
-    print("Labvakar!")
+    sveicienu="Labvakar!"
+print(sveicienu)
 
